@@ -1,0 +1,48 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build artifacts and compiled files
+dist/
+build/
+coverage/
+.next/ # For Next.js projects
+.nuxt/ # For Nuxt.js projects
+
+# Environment variables
+.env
+.env.development
+.env.production
+.env.local
+.env.*.local
+
+# Editor and OS generated files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Test and report files
+test-results/
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json # Node.js reports
+
+# Miscellaneous
+.npm/
+.nyc_output/
+.cache/
+.eslintcache
+.prettierignore
